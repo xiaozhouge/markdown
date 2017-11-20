@@ -1,3 +1,4 @@
+-------------------------------段落、标题、区块代码
 A First Level Header
 ====================
 A Second Level Header
@@ -16,3 +17,8 @@ dog's back.
 > This is the second paragraph in the blockquote.
 >
 > ## This is an H2 in a blockquote
+---------------------------------修辞和强调
+Some of these words *are emphasized*.
+Some of these words _are emphasized also_.
+Use two asterisks for **strong emphasis**.
+Or, if you prefer, __use two underscores instead__.
