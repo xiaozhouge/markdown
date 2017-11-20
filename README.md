@@ -1,4 +1,5 @@
 -------------------------------段落、标题、区块代码
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"></script>
 A First Level Header
 ====================
 A Second Level Header
@@ -74,7 +75,20 @@ you've got to put paragraph tags in your blockquotes:
 <table><tr><td bgcolor=#FF4500>这里的背景色是：OrangeRed，  十六进制颜色值：#FF4500， rgb(255, 69, 0)</td></tr></table>
 
 
-
+class MyClass {
+  public static myValue: string;
+  constructor(init: string) {
+    this.myValue = init;
+  }
+}
+import fs = require("fs");
+module MyModule {
+  export interface MyInterface extends Other {
+    myProperty: any;
+  }
+}
+declare magicNumber number;
+myArray.forEach(() => { }); // fat arrow syntax
 
 
 
