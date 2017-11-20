@@ -32,3 +32,35 @@ Or, if you prefer, __use two underscores instead__.
 - Candy.
 - Gum.
 - Booze.
+有序列表
+1. Red
+2. Green
+3. Blue
+---------------------------------链接
+This is an [example link](http://example.com/).
+
+你也可以选择性的加上 title 属性：
+This is an [example link](http://example.com/ "With a Title").
+
+参考形式的链接让你可以为链接定一个名称，之后你可以在文件的其他地方定义该链接的内容：
+I get 10 times more traffic from [Google][1] than from
+[Yahoo][2] or [MSN][3].
+
+[1]: http://google.com/ "Google"
+[2]: http://search.yahoo.com/ "Yahoo Search"
+[3]: http://search.msn.com/ "MSN Search"
+---------------------------------图片
+![alt text](/path/to/img.jpg "Title")
+
+
+
+
+
+
+
+
+
+
+
+
+
